@@ -1,0 +1,60 @@
+.Card {
+    width: 75vw;
+    margin: 0% auto;
+    background-color: hsla(356, 7%, 56%, 0.151);
+    margin-top: 5%;
+    border-style: none;
+}
+
+.contact-header {
+    font-family: 'Amatic SC';
+    font-size: 3vw;
+}
+
+.form-floating input {
+    width: 90%;
+}
+
+.form-floating input[type="email"] {
+    width: 95%;
+}
+
+.form-floating label {
+    margin-left: 2%;
+}
+
+.btn-contact {
+    width: fit-content;
+    margin: auto;
+    background-color: black;
+    color: azure;
+    margin-bottom: 3%;
+}
+
+.btn-contact:hover {
+    background-color:#974549;
+    color: whitesmoke;
+}
+
+/**************************Countries************/
+.Card-countries {
+    width: 75vw;
+    margin: 5% auto;
+border-style: none;
+}
+
+.countries-header {
+    color: #6096B4;
+    font-size: xx-large;
+    margin: 4% 0%;
+}
+
+.card-img1 {
+    height:20vw;
+    width: auto;
+    cursor: pointer;
+}
+
+.card-text i {
+    color: yellow;
+}
