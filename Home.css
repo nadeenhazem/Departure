@@ -1,28 +1,31 @@
 .Home-Section{
-    background-image: url(https://i.ibb.co/SJmLmTf/philipp-kammerer-6-Mxb-m-Z-Q8-E-unsplash.jpg);
+    background-image: url(https://i.ibb.co/JzT8wPR/greece.jpg);
    background-size: 100%; 
-   height: 100vh;
+   /* max-height: 100vh; */
    background-repeat: no-repeat; 
    max-width: 100vw;
    
 }
 .Card{
      width:75vw;
- margin: 0% auto;
+ margin: 3% auto;
  background-color: hsla(0, 7%, 92%, 0.418);
+ border-style: none;
 }
 .Card-Name{
     font-family: 'Amatic SC';
     font-size: 10vw;
     margin:auto;
     margin-bottom: 2%;
+    color:whitesmoke;
 }
 .card-btn{
     background-color: hsla(0, 7%, 92%, 0.418);
     border: 1px solid white;
+    color: #000000;
 }
 .card-btn:hover{
-    background-color:#974549;
+    background-color: #144272;
     color: whitesmoke;
 }
 .card-Lang{
@@ -32,6 +35,8 @@
     background-color: hsl(201, 36%, 54%,0%);
     border-style: none;
     cursor: pointer;
+    color: whitesmoke;
+
 }
 .Header{
     border-style: none;
@@ -39,14 +44,16 @@
     margin-bottom: 2%;
 }
 /*****************About Us************/
-/* .main-section{
-    width:98vw;
-    background-color: #6096B4;
-    height: auto;
-} */
-.about-main{
-    margin-top: 5%;
-}
+
+    .about-main{
+        margin-top: 5%;
+    }
+    @media screen and (max-width: 770px) {
+        .about-main{
+            margin-top: 0%;
+            
+        }
+    }
 .about-main-img{
     width: 40vw;
     height: 30vw;

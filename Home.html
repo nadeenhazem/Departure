@@ -9,26 +9,30 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
     <link href="./Home.css" rel="stylesheet">
+    
     <link href="./contactus&bestvisit.css" rel="stylesheet">
+    <link rel="stylesheet" href=
+"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 
 <body>
-    <section class="Home-Section">
-        <div style="padding-top: 1%;">
+    <section class="Home-Section" id="HOME">
+        <div style="padding: 2% 0%;">
             <div class="card text-center Card">
                 <div class="card-header Header">
                     <a href="#" class="btn card-btn" style="float: right;">account</a>
                     <select class="form-select form-select-sm card-Lang">
-                        <option class="card-select" value="1" selected>EN</option>
-                        <option class="card-select"value="2">AR</option>
+                        <option  value="EN" selected style="color: black;">EN</option>
+                        <option value="AR" style="color: black;">AR</option>
                     </select>
                 </div>
 
                 <div class="card-body" style="margin-bottom: 5%;">
                     <h1 class="card-title Card-Name"> Departure</h1>
-                    <p class="card-text" style="margin-bottom: 5%;">The world is yours to explore.</p>
+                    <p class="card-text" style="margin-bottom: 5%;color:whitesmoke">The world is yours to explore.</p>
                     <a href="#" class="btn card-btn">Book Now</a>
                 </div>
 
@@ -38,7 +42,7 @@
 
 
 <!------------------ About Us --------------------->
-    <div class="about-main">
+    <div class="about-main" id="About">
         <div class="container text-center">
             <h1 class="about-header">ABOUT US</h1>
             <div class="row row-cols-2" style="margin:5% auto 15%;">
@@ -56,26 +60,27 @@
             <div class="row row-cols-3">
                 <div class="col">
                     <img src="https://i.ibb.co/w4n3cR0/plane2.png" class="about-img">
-                    <p class="about-p">best flights</p></div>
+                    <p class="about-p">Best flights</p></div>
 
 
                 <div class="col">
                     <img src="https://i.ibb.co/4J9sW8M/felix-rostig-Um-V2wr-Vbq8-unsplash.jpg" class="about-img">
-                    <p class="about-p">friendly trip</p></div>
+                    <p class="about-p">Friendly trip</p></div>
                 <div class="col">
                     <img src="https://i.ibb.co/BG09vkB/pexels-pixabay-358358.jpg" class="about-img">
-                    <p class="about-p">best Place</p></div>
+                    <p class="about-p">Best Place</p></div>
                
             </div>
         </div>
     </div>
+    </div>
     <!--------------- Most Visit ----------------->
     
-    <div class="card Card-countries">
+    <div class="card Card-countries" id="Visit">
         <h4 class="countries-header">Most Visited</h4>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 countries-one-card">
                     <img src="https://i.ibb.co/z82ZDvf/pexels-anya-petrovic-11662145.jpg" class="card-img-top card-img1" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">France</h5>
@@ -98,13 +103,13 @@
                 </i></p>
 
                         <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 countries-one-card">
                     <img src="https://i.ibb.co/vdWwgG0/pexels-usman-amin-4015781.jpg"
                      class="card-img-top card-img1" alt="...">
                     <div class="card-body">
@@ -123,17 +128,17 @@
                         <i class="material-icons" 
                         >star
                     </i>
-                    <i class="material-icons" 
+                    <i class="material-icons star" 
                     >star
                 </i></p>
                 <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s type 
                 </p>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 countries-one-card">
                     
                     <img src="https://i.ibb.co/55cLG9H/pexels-asad-photo-maldives-1287460.jpg" class="card-img-top card-img1" alt="...">
                     <div class="card-body">
@@ -149,10 +154,10 @@
                     <i class="material-icons" 
                     >star
                 </i>
-                        <i class="material-icons" 
+                        <i class="material-icons star" 
                         >star
                     </i>
-                    <i class="material-icons" 
+                    <i class="material-icons star" 
                     >star
                 </i></p>
 
@@ -162,7 +167,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card ">
+                <div class="card h-100 countries-one-card">
                     <img src="https://i.ibb.co/2k3mLW9/pexels-oliver-sj-str-m-931007.jpg" class="card-img-top card-img1" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Bali</h5>
@@ -177,10 +182,10 @@
                     <i class="material-icons" 
                     >star
                 </i>
-                        <i class="material-icons" 
+                        <i class="material-icons star" 
                         >star
                     </i>
-                    <i class="material-icons" 
+                    <i class="material-icons star" 
                     >star
                 </i></p>
 
@@ -193,47 +198,32 @@
 
     </div>
  <!------------------ Contact Us -------------->
- <div class="card text-center Card">
-    <div class="card-body">
+ <section class="Contact-Section">
 <p class="contact-header"> Contact Us</p>
-        <div class="row">
-            <div class="col-md">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="firstname" placeholder="First Name">
-                    <label for="firstname">First Name</label>
-                </div>
-            </div>
-            <div class="col-md ">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="Lastname" placeholder="Last Name">
-                    <label for="Lastname">Last Name</label>
-                </div>
-            </div>
-            <div class="email">
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
-            </div>
-        </div>
-            <div class="col-md">
-                <div class="form-floating mb-3">
-                    <input type="password" class="form-control" id="password" placeholder="Password">
-                    <label for="password">Password</label>
-                </div>
-            </div>
-            <div class="col-md ">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="Phone Number" placeholder="Phone Number">
-                    <label for="Phone Number">Phone Number</label>
-                </div>
-            </div>
-        
-        </div>
-
+<div class="row row-cols-4" style="padding-bottom: 5%;width:97vw;">
+    <div class="col Footer-Name">DEPARTURE</div>
+    <div class="col">
+        <h5>Quick Links</h5>
+        <a href="#HOME" class="Footer-Link">Home</a>
+        <a href="#About" class="Footer-Link">About US</a>
+        <a href="#Visit" class="Footer-Link">Most Visit</a>
     </div>
-    <button class="btn btn-contact">Contact Us</button>    
+    
+    <div class="col">
+        <h5>Help</h5>
+        <a href="" class="Footer-Link">Development</a>
+        <a href="" class="Footer-Link">Support</a>
+        <a href="" class="Footer-Link">FAQs</a>
+    </div>
+    <div class="col">
+        <h5>Follow Us</h5>
+        <a href="" class="Footer-Link"><i class="bi-facebook"></i></a>
+        <a href="" class="Footer-Link"><i class="bi-twitter"></i></a>
+        <a href="" class="Footer-Link">  <i class="bi-instagram"></i></a>
+    </div>  </div>
+            
 </div>
-
+</section>
 </body>
 
 </html>

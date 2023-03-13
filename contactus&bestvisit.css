@@ -1,60 +1,60 @@
-.Card {
-    width: 75vw;
-    margin: 0% auto;
-    background-color: hsla(356, 7%, 56%, 0.151);
-    margin-top: 5%;
-    border-style: none;
+.Contact-Section{
+    background-color: #144272;
+    /* width: 97.5vw; */
+    text-align: center;
+    color: whitesmoke;
+    
 }
-
 .contact-header {
     font-family: 'Amatic SC';
     font-size: 3vw;
 }
-
-.form-floating input {
-    width: 90%;
-}
-
-.form-floating input[type="email"] {
-    width: 95%;
-}
-
-.form-floating label {
-    margin-left: 2%;
-}
-
-.btn-contact {
-    width: fit-content;
-    margin: auto;
-    background-color: black;
-    color: azure;
-    margin-bottom: 3%;
-}
-
-.btn-contact:hover {
-    background-color:#974549;
+.Footer-Link{
+    text-decoration: none;
+    display: block;
     color: whitesmoke;
 }
-
+.Footer-Link:hover{
+    color: black;
+}
+.Footer-Name{
+    font-family: 'Amatic SC';
+    font-size: 3vw;
+}
 /**************************Countries************/
 .Card-countries {
     width: 75vw;
     margin: 5% auto;
-border-style: none;
+    border-style: none;
+}
+
+.countries-one-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
 }
 
 .countries-header {
-    color: #6096B4;
+    color:#144272;
     font-size: xx-large;
     margin: 4% 0%;
 }
 
 .card-img1 {
-    height:20vw;
-    width: auto;
-    cursor: pointer;
+    height: 20vw;}
+
+@media screen and (max-width: 770px) {
+    .card-img1 {
+        height: 100%;
+    }
 }
+
+
+
 
 .card-text i {
     color: yellow;
+}
+.star{
+    color: rgb(161, 161, 161) !important;
 }
